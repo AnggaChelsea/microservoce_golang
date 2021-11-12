@@ -1,0 +1,6 @@
+# all coontainer wee need to be in the same directory
+# all the files in the directory will be added to the container
+# the container will be created with the name of the directory
+# the container will be started
+# the container will be stopped
+# the container will be removed
