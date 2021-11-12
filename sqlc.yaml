@@ -1,0 +1,8 @@
+version: "1"
+packages:
+  - name: "postgres"
+    path: "./services/teams/"
+    queries: "./services/teams/migration/queries.sql"
+    schema: "./services/teams/migration/schema.sql"
+    engine: "postgresql"
+    emit_json_tags: true

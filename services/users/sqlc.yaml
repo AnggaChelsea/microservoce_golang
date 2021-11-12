@@ -1,0 +1,8 @@
+version: "1"
+packages: 
+  - name: "postgres"
+    path: "./services/users/migration"
+    queries: "./services/users/migration/sql/queries.sql"
+    schema: "./services/users/migration/sql/schema.sql"
+    engine: "postgresql"
+    emit_json_tags: true
